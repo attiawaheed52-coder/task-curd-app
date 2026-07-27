@@ -18,6 +18,10 @@ describe('App', () => {
     const fixture = TestBed.createComponent(App);
     await fixture.whenStable();
     const compiled = fixture.nativeElement as HTMLElement;
+<<<<<<< HEAD
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, task-curd-app');
+=======
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, auth-app');
+>>>>>>> 84ae4432729ae9468673bd85d8e5f7a33c3773b5
   });
 });

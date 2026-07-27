@@ -1,4 +1,4 @@
-{
+
   "tasks": [
     {
       "title": "angular  updated",
@@ -9,6 +9,62 @@
       "title": "",
       "description": "",
       "id": "YASu5LGh-aU"
+=======
+  "users": [
+    {
+      "name": "attia waheed",
+      "email": "attia.waheed52@gmail.com",
+      "password": "attia123@",
+      "id": "_TjIVYLNX-w"
+    },
+    {
+      "name": "Attia waheed",
+      "email": "attia.waheed52@gmail.com",
+      "password": "attia123$",
+      "id": "YKt1M87WOZU"
+    },
+    {
+      "name": "hina",
+      "email": "hina52@gamil.com",
+      "password": "hina 1234",
+      "id": "WX28yOVt3yQ"
+    },
+    {
+      "name": "hina",
+      "email": "hina52@gamil.com",
+      "password": "hina 1234",
+      "id": "9SbtbojxMhI"
+    },
+    {
+      "name": "hina",
+      "email": "hina52@gmail.com",
+      "password": "hina 1234",
+      "id": "BkxWO3AXi3o"
+    },
+    {
+      "name": "anum",
+      "email": "anum.waheed52@gmail.com",
+      "password": "anum123@",
+      "id": "_MM-v2uQNRk"
+    },
+    {
+      "name": "Attia waheed",
+      "email": "attia.waheed52@gmail.com",
+      "password": "attia123@",
+      "id": "XZKb8sIQNwk"
+    },
+    {
+      "name": "Attia waheed",
+      "email": "attia.waheed52@gmail.com",
+      "password": "attia123@",
+      "id": "rP726E84MCE"
+    },
+    {
+      "name": "attia",
+      "email": "attia.waheed52@gmail.com",
+      "password": "attia12",
+      "id": "gycGa-27XU0"
+>>>>>>> 84ae4432729ae9468673bd85d8e5f7a33c3773b5
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
