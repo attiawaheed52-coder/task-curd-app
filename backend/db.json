@@ -1,0 +1,89 @@
+{
+  "users": [
+    {
+      "name": "hina",
+      "email": "hina.waheed52@gmail.com",
+      "password": "hina123",
+      "role": "user",
+      "id": "vZEiz6lcYRI"
+    },
+    {
+      "name": "attia",
+      "email": "attia.waheed52@gmail.com",
+      "password": "attia12",
+      "role": "admin",
+      "id": "fdhQ5YCjN54"
+    },
+    {
+      "name": "attia",
+      "email": "attia52@gmail.com",
+      "password": "attia1",
+      "role": "admin",
+      "id": "gPzuO99D5mI"
+    },
+    {
+      "name": "HINA",
+      "email": "HINA@gmail.com",
+      "password": "hina11",
+      "role": "admin",
+      "id": "xUuAJHfUCfQ"
+    },
+    {
+      "name": "anum",
+      "email": "anum.waheed@gmail.com",
+      "password": "anum22",
+      "role": "user",
+      "id": "ZomHiNusDbA"
+    },
+    {
+      "name": "alina",
+      "email": "alina@gmail.com",
+      "password": "alina22",
+      "role": "admin",
+      "id": "HuSLy-ttoco"
+    },
+    {
+      "name": "saba",
+      "email": "saba@gmail.com",
+      "password": "saba22",
+      "role": "user",
+      "id": "14cYCF2Fec4"
+    },
+    {
+      "name": "fatima",
+      "email": "fatima@gmail.com",
+      "password": "fatima33",
+      "role": "user",
+      "id": "kxVRCNUpX5o"
+    }
+  ],
+  "tasks": [
+    {
+      "title": "React",
+      "description": "make notes",
+      "dueDate": "2026-06-07",
+      "status": "Pending",
+      "priority": "High",
+      "email": "hina@gmail.com",
+      "id": "HeaLMaW-CIE"
+    },
+    {
+      "title": "learn angular",
+      "description": "make notes",
+      "dueDate": "2026-06-11",
+      "status": "Completed",
+      "priority": "High",
+      "email": "HINA@gmail.com",
+      "id": "7g151odiSOI"
+    },
+    {
+      "title": "react.js",
+      "description": "learn react",
+      "dueDate": "2026-06-11",
+      "status": "Completed",
+      "priority": "Medium",
+      "id": "EQLLGzM4_yE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
