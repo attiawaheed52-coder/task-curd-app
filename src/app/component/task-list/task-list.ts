@@ -2,10 +2,12 @@ import {
   Component,
   inject,
   OnInit,
+  PLATFORM_ID,
   signal
 } from '@angular/core';
 
 import { CommonModule } from '@angular/common';
+import { isPlatformBrowser } from '@angular/common';
 
 import { FormsModule } from '@angular/forms';
 
@@ -31,6 +33,7 @@ import { Task } from '../../model/task.model';
 export class TaskListComponent
 implements OnInit {
 
+  private platformId = inject(PLATFORM_ID);
   taskService = inject(Taskservice);
 
   tasks = this.taskService.tasks;
@@ -38,9 +41,9 @@ implements OnInit {
   editingtask = signal<any>(null);
 
   ngOnInit() {
-
-    this.taskService.loadTask();
-
+    if (isPlatformBrowser(this.platformId)) {
+      this.taskService.loadTask();
+    }
   }
 
   // EDIT BUTTON
